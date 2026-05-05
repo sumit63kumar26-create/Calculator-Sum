@@ -1,86 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE html><html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <title>HTML</title>
-  
-  <!-- HTML -->
-  
-
-  <!-- Custom Styles -->
+  <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
-
-<body>
-  
-  <!-- 3 dot menu -->
-<div class="menu">
-  <button class="btn01" onclick="toggleMenu()">⋮</button>
-
-  <div id="menuBox" class="menu-box">
-    <p onclick="setTheme('light')">Light Mode</p>
-    <p onclick="setTheme('dark')">Dark Mode</p>
-    <p onclick="openHistory()">Saved Calculations</p>
-  </div>
-</div>
-
-<h2>Calculator</h2>
-  
-  <input type="text" id="display" disabled>
-
-<div class="div5"
-
-<button class="btn18" onclick="clearAll()">AC</button>
-
-<button class="btn17" onclick="clearDisplay()">C</button>
-
-<button class="btn19" onclick="()">_</button>
-
-<button class="btn20" onclick="press('%')">%</button>
-
-
-</div>
+<body> 
 
 <div class="div1"
+    <a class="btn6" href="index.html">Calculator</a>
+    <a class="btn7"href="developer.html">Developer</a>
+  </div>
+  
+<div class="calculator">
+  <input type="text" id="display" disabled>  <div class="buttons">
+    <button onclick="clearAll()">AC</button>
+    <button onclick="clearDisplay()">C</button>
+    <button onclick="press('%')">%</button>
+    <button class="btn1"onclick="press('/')">÷</button><button onclick="press('7')">7</button>
+<button onclick="press('8')">8</button>
+<button onclick="press('9')">9</button>
+<button class="btn2"onclick="press('*')">×</button>
 
-<button class="btn16" onclick="press('7')">7</button>
-<button class="btn15" onclick="press('8')">8</button>
-<button class="btn14" onclick="press('9')">9</button>
-<button class="btn13" onclick="press('+')">+</button>
-</div>
+<button onclick="press('4')">4</button>
+<button onclick="press('5')">5</button>
+<button onclick="press('6')">6</button>
+<button class="btn3"onclick="press('-')">-</button>
 
-<div class="div2"
+<button onclick="press('1')">1</button>
+<button onclick="press('2')">2</button>
+<button onclick="press('3')">3</button>
+<button class="btn4"onclick="press('+')">+</button>
 
-<button class="btn12" onclick="press('4')">4</button>
-<button class="btn11"onclick="press('5')">5</button>
-<button class="btn10" onclick="press('6')">6</button>
-<button class="btn9" onclick="press('-')">-</button>
+<button onclick="press('.')">.</button>
+<button onclick="press('0')">0</button>
+<button class="btn5"onclick="calculate()">=</button>
 
-</div>
-<div class="div3"
-
-<button class="btn8" onclick="press('1')">1</button>
-<button class="btn7" onclick="press('2')">2</button>
-<button class="btn6" onclick="press('3')">3</button>
-<button class="btn5" onclick="press('*')">×</button>
-
-</div>
-
-<div class="div4"
-
-<button class="btn2" onclick="press('.')">.</button>
-<button class="btn4" onclick="press('0')">0</button>
-<button class="btn3" onclick="calculate()">=</button>
-<button class="btn1" onclick="press('/')">÷</button>
-</div>
-
-<div class="div6"
-<a class="btn02" href="index.html" class="active">Calculator</a>
-<a class="btn03" href="store.html">Devloper</a>
-</div>
-  <script src="main.js"></script>
-</body>
+  </div>
+</div><script src="main.js"></script></body>
 </html>
