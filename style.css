@@ -1,0 +1,119 @@
+body {
+margin-top: 230px;
+font-family: Arial;
+background: black;
+justify-items: center;
+height:100px;
+}
+
+.calculator {
+width: 300px;
+background: black;
+padding: 15px;
+border-radius: 10px;
+}
+
+#display {
+width: 100%;
+height: 50px;
+font-size: 20px;
+margin-bottom: 10px;
+text-align: right;
+padding: 10px;
+}
+
+.buttons {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+gap: 10px;
+}
+
+button {
+padding: 15px;
+font-size: 18px;
+font-weight:bold;
+border: none;
+border-radius: 15px;
+background: #777354;
+color: white;
+}
+
+button:hover {
+background: #FFD472;
+}
+
+input {
+  background:black;
+  border:0px;
+  font-weight:bold;
+  color:white;
+}
+
+.btn1 {
+  background-color:white;
+  color:black;
+}
+
+.btn2 {
+  background-color:#419DFF;
+}
+.btn3 {
+  background-color:red;
+}
+.btn4 {
+  background-color:#3FE14B;
+}
+.btn5 {
+  background-color:#EBAD7C;
+}
+
+.div1 {
+  background-color:black;
+  margin-top:-220px;
+  margin-bottom:190px;
+}
+.btn6 {
+  font-weight:bold;
+  background-color:black;
+  color:white;
+  text-decoration:none;
+  font-weight: bold;
+  font-size:18px;
+  margin:6mm;
+  
+}
+
+.btn7 {
+  font-weight:bold;
+  background-color:black;
+  color:white;
+  text-decoration:none;
+  text-align:center;
+  font-weight:bold;
+  font-size:18px;
+  margin:6mm;
+}
+
+.btn8 {
+  color:#FFFAC6;
+  font-weight:bold;
+  text-decoration-color:yellow;
+}
+.btn6:hover {
+  color:yellow;
+}
+.btn7:hover {
+  color:yellow;
+}
+
+img {
+  width:250px;
+  margin-left:+40px;
+  margin-top:-150px;
+  border:2px solid#72715F;
+  border-radius:15px;
+}
+
+.div7 {
+  
+}
